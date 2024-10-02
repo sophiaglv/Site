@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: #DCDDD5;
+}
+h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-family: "Lavishly Yours", system-ui;
+}
+.menu, .menu1{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items:flex-end;
+    height: 100%;
+    font-size: 1.3em;
+}
+.menu{
+    align-items: flex-end;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+}
+.menu li a{
+    color: black;
+}
+.menu1{
+    background-image: url(../img/fundo.png);
+    background-size: cover;
+    align-items: center;
+    margin-top: 25px;
+    padding: 40px;
+}
+.fundo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 15px;
+    border-radius: 7px;
+    background-color: #4BC14B;
+}
+.ativa{
+    background-color: #146734;
+}
+.fundo a{
+    color: black;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background: linear-gradient(90deg, #00923F, #146734 );
+}
+.container img{
+    width: 150px;
+    height: 100px;
+}
+.fundoPrincipal, .inicio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+.inicio{
+    margin-top: -10px;
+}
+.fundoPrincipal{
+    justify-content: center;
+}
+.fundoPrincipal p{
+    border-radius: 7px;
+    background-color: #4BC14B;
+    margin-top: 25px;
+    width: 500px;
+    padding: 15px 15px;
+    font-size: 1.8rem;
+    text-align: center;
+}
+.fundoPrincipal a{
+    color: black;
+}
+.indice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 15px;
+    border-radius: 7px;
+    background-color: rgb(169, 187, 170);
+    margin-top: 15px;
+    width: 150px;
+    height: 100px;
+    color: black;
+}
+
+.escolas{
+    display: flex;
+    justify-content: space-around;
+}
+
+.texto, .texto2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 25px;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.texto p, .texto2 p{
+    width: 80vw;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.texto2{
+    margin-top: -80px;
+}
